@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 4" width="100%">
+  <defs>
+    <linearGradient id="glow-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent" />
+      <stop offset="50%" stop-color="hsl(245, 97%, 61%)" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="transparent" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="1" width="100%" height="2" fill="url(#glow-line)" rx="1" />
+</svg>

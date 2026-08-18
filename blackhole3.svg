@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 350" width="220">
+  <defs>
+    <!-- 1. The Fade Mask to smoothly blend the right edge into the page break -->
+    <linearGradient id="fade-right" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" />
+      <stop offset="85%" stop-color="white" />
+      <stop offset="100%" stop-color="black" />
+    </linearGradient>
+    <mask id="edge-mask">
+      <rect x="0" y="0" width="250" height="350" fill="url(#fade-right)" />
+    </mask>
+
+    <!-- Subtle ambient glow (Center fixed to 50% so it stays perfectly behind the void) -->
+    <radialGradient id="subtle-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="hsl(245, 97%, 15%)" stop-opacity="0.3" />
+      <stop offset="40%" stop-color="hsl(245, 97%, 30%)" stop-opacity="0.08" />
+      <stop offset="70%" stop-color="hsl(245, 97%, 61%)" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+
+    <!-- Gradients for the realistic accretion disk -->
+    <linearGradient id="disk-front" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="transparent" />
+      <stop offset="25%" stop-color="hsl(245, 80%, 50%)" />
+      <stop offset="85%" stop-color="hsl(245, 90%, 80%)" />
+      <stop offset="100%" stop-color="transparent" />
+    </linearGradient>
+  </defs>
+
+  <!-- We wrap EVERYTHING in the edge-mask so nothing creates a line -->
+  <g mask="url(#edge-mask)">
+    
+    <!-- Global Perspective Group -->
+    <g transform="translate(250, 175) rotate(-15)">
+      
+      <!-- Deep Space Subdued Glow -->
+      <circle cx="0" cy="0" r="180" fill="url(#subtle-glow)" />
+
+      <!-- The Back Accretion Disk (Drawn BEHIND the black hole) -->
+      <ellipse cx="0" cy="0" rx="190" ry="30" fill="none" stroke="url(#disk-front)" stroke-width="6" opacity="0.3" />
+      <ellipse cx="0" cy="0" rx="170" ry="25" fill="none" stroke="white" stroke-width="2" opacity="0.2" />
+      <ellipse cx="0" cy="0" rx="210" ry="35" fill="none" stroke="hsl(245, 80%, 60%)" stroke-width="1.5" opacity="0.2" />
+
+      <!-- The Event Horizon (The Void) -->
+      <circle cx="0" cy="0" r="45" fill="#000000" />
+      
+      <!-- The Photon Ring -->
+      <circle cx="0" cy="0" r="46" fill="none" stroke="hsl(245, 90%, 80%)" stroke-width="1.5" opacity="0.9" />
+
+      <!-- The Front Accretion Disk (Drawn IN FRONT of the black hole) -->
+      <path d="M -190 0 A 190 30 0 0 0 190 0" fill="none" stroke="url(#disk-front)" stroke-width="6" />
+      <path d="M -170 0 A 170 25 0 0 0 170 0" fill="none" stroke="white" stroke-width="2" opacity="0.7" />
+      <path d="M -210 0 A 210 35 0 0 0 210 0" fill="none" stroke="hsl(245, 80%, 60%)" stroke-width="1.5" opacity="0.4" />
+
+      <!-- Organized Star Sets -->
+      
+      <!-- Set 1: Fast, Inner Orbit -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite" />
+        <circle cx="-60" cy="0" r="1.5" fill="white" />
+        <circle cx="50" cy="15" r="1" fill="white" opacity="0.8" />
+        <circle cx="20" cy="-65" r="2" fill="white" opacity="0.9" />
+      </g>
+
+      <!-- Set 2: Medium-Fast, Mid Orbit (Counter-Rotating) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite" />
+        <circle cx="-120" cy="10" r="2" fill="white" />
+        <circle cx="110" cy="-20" r="1.5" fill="white" opacity="0.6" />
+        <circle cx="0" cy="115" r="1" fill="white" opacity="0.7" />
+        <circle cx="-90" cy="-80" r="1.5" fill="white" opacity="0.9" />
+      </g>
+
+      <!-- Set 3: Slow, Outer Orbit -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" />
+        <circle cx="-180" cy="0" r="1.5" fill="white" opacity="0.8" />
+        <circle cx="160" cy="60" r="2" fill="white" opacity="0.9" />
+        <circle cx="50" cy="-170" r="1.5" fill="white" opacity="0.5" />
+        <circle cx="-150" cy="100" r="1" fill="white" opacity="0.6" />
+        <circle cx="190" cy="-30" r="2" fill="white" opacity="0.7" />
+      </g>
+
+      <!-- Set 4: Very Slow, Deep Space Orbit (Counter-Rotating) -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite" />
+        <circle cx="-240" cy="40" r="2" fill="white" opacity="0.6" />
+        <circle cx="220" cy="-90" r="1.5" fill="white" opacity="0.4" />
+        <circle cx="-30" cy="230" r="1" fill="white" opacity="0.5" />
+        <circle cx="-180" cy="-160" r="2" fill="white" opacity="0.8" />
+        <circle cx="250" cy="120" r="1.5" fill="white" opacity="0.3" />
+      </g>
+
+    </g>
+  </g>
+</svg>
