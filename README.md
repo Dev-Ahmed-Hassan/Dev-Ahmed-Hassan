@@ -47,9 +47,9 @@ I'm a junior-year Computer Science student at UET Lahore. My primary focus is bu
 
 - [Nexus](https://github.com/Dev-Ahmed-Hassan/nexus-qt-social-feed) — A desktop social application utilizing manually implemented data structures (circular queues, linked lists, stacks) to power feed ranking, search, and undo histories. — `C++17, Qt 6, QML`
 - [AlgoRythm](https://github.com/Dev-Ahmed-Hassan/algo_rhythm_desktop_music_player) — A local desktop music player leveraging custom binary search trees, max heaps, and hash tables for library search, smart shuffle prioritization, and user lookup. — `C++17, Qt 6, CMake`
-- [Study Arc](https://github.com/Dev-Ahmed-Hassan/study-arc) — A console-based university management and quiz system featuring role-based access control (Admin, Teacher, Student) and persistent flat-file storage. — `C++14, Visual Studio`
-- [Pacman Console Game](https://github.com/Dev-Ahmed-Hassan/pacman-console-game) — A terminal-based arcade game featuring real-time keyboard polling, enemy collision detection, and a custom 2D grid rendering loop. — `C++14, Windows Console`
-- [DSA Archive](https://github.com/Dev-Ahmed-Hassan/dsa-archive) — A structured code repository tracking problem-solving progress across LeetCode, Coding Ninjas, and platform-specific algorithm challenges. — `C++`
+- [Study Arc](https://github.com/Dev-Ahmed-Hassan/StudyArc-PF) — A console-based university management and quiz system featuring role-based access control (Admin, Teacher, Student) and persistent flat-file storage. — `C++14, Visual Studio`
+- [Pacman Console Game](https://github.com/Dev-Ahmed-Hassan/Pacman-PF) — A terminal-based arcade game featuring real-time keyboard polling, enemy collision detection, and a custom 2D grid rendering loop. — `C++14, Windows Console`
+- [DSA Archive](https://github.com/Dev-Ahmed-Hassan/DSA_Archive) — A structured code repository tracking problem-solving progress across LeetCode, Coding Ninjas, and platform-specific algorithm challenges. — `C++`
 
 <br/>
 
