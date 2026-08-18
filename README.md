@@ -21,7 +21,7 @@ I'm a junior-year Computer Science student at UET Lahore. My primary focus is bu
 
 <img src="./divider.svg" width="100%" alt="divider">
 
-## Full-Stack & AI Integration
+### Full-Stack & AI Integration
 
 - [Pyxis](#) — An explainable AI-assisted career-readiness platform for resume-internship matching, gap analysis, and RAG-based interview preparation. — `React, FastAPI, PostgreSQL, MongoDB, Neo4j, pgvector`
 - [Tone Shift](https://github.com/Dev-Ahmed-Hassan/Context-Aware-Translation-App) — A context-aware translation and text-refinement web app that uses server-side prompt injection to generate situationally accurate multilingual text. — `Vanilla JS, FastAPI, Google Gemini API`
