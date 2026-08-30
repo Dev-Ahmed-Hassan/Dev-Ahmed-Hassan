@@ -10,7 +10,7 @@ I'm a junior-year Computer Science student at UET Lahore. My primary focus is bu
 <br> 
 
 <p> Visit My Portfolio Site: 
-<a href="https://portfolio-beta-virid-g4ripltt47.vercel.app/">Portfolio | Ahmed Hassan</a>
+<a href="https://ahmed-hassan-portfoliosite.vercel.app/">Portfolio | Ahmed Hassan</a>
 </p>
 
 <br clear="right"/>
