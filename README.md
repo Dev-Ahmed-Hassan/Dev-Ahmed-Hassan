@@ -23,7 +23,7 @@ I'm a junior-year Computer Science student at UET Lahore. My primary focus is bu
 
 ### Full-Stack & AI Integration
 - [ScamLess](https://scamless.vercel.app/) — An automated OSINT job scam verification platform utilizing real-time domain telemetry, LLM risk scoring, a [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/scamless-job-scam-detector/), and an automated WhatsApp bot. — `Next.js, FastAPI, Python, Google Gemini API, Firefox Add-on (MV3), OpenWA`
-- [Pyxis](#) — An explainable AI-assisted career-readiness platform for resume-internship matching, gap analysis, and RAG-based interview preparation. — `React, FastAPI, PostgreSQL, MongoDB, Neo4j, pgvector`
+- [Pyxis](https://github.com/Dev-Ahmed-Hassan/Pyxis) — An explainable AI-assisted career-readiness platform for resume-internship matching, gap analysis, and RAG-based interview preparation. — `React, FastAPI, PostgreSQL, MongoDB, Neo4j, pgvector`
 - [Tone Shift](https://github.com/Dev-Ahmed-Hassan/Context-Aware-Translation-App) — A context-aware translation and text-refinement web app that uses server-side prompt injection to generate situationally accurate multilingual text. — `Vanilla JS, FastAPI, Google Gemini API`
 
 <br/>
